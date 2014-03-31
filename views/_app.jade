@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title burlesque show
+
+    link(rel="stylesheet", href="/normalize-css/normalize.css")
+    link(rel="stylesheet", href="/reveal.js/css/reveal.css")
+    link(rel="stylesheet", href="/reveal.js/css/theme/" + theme + ".css")
+    link(rel="stylesheet", href="/x-enable-web-notifications/index.css")
+    link(rel="stylesheet", href="/x-git-show/index.css")
+
+    script(src="/x-tag-core/dist/x-tag-core.min.js")
+    script(src="/zepto/zepto.min.js")
+    script(src="/notify.js/notify.js")
+    script(src="/reveal.js/js/reveal.js")
+    script(src="/x-enable-web-notifications/index.js")
+    script(src="/x-git-show/index.js")
+  body
+    yield

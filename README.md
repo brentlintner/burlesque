@@ -1,4 +1,26 @@
 burlesque
 =========
 
-Present your git's! (project for creating a slideshow out of a git commit range)
+Turn your git commit messages into visual presentations that wow your viewers!
+
+Disclaimer: The wow factor may or may not be experienced.
+
+## Installation
+
+    npm install -g burlesque
+
+## Usage
+
+    burlesque help
+
+## Hacking
+
+    cd burlesque
+    npm install
+    ./bin/burlesque help
+
+## Why?
+
+When you can explain an entire feature from its commit history, you don't
+have to repeat yourself, and anyone who has no experience with the code can
+understand and explore what is being done.

@@ -1,0 +1,22 @@
+include _app
+
+x-enable-web-notifications
+  button click to enable web notifications
+
+x-git-show
+  div
+    each commit in commits
+      .slides
+        section
+          h4
+            = commit.title
+          pre.body
+            = commit.body
+
+          pre.details.smaller
+            = 'Author: ' + commit.author + ' (' + commit.adate + ')'
+            br
+            = 'Committer: ' + commit.committer + ' (' + commit.cdate + ')'
+            br
+            br
+            = 'SHA: ' + commit.sha

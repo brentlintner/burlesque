@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+./node_modules/.bin/nodemon \
+    -e js,styl,jade \
+    -w web -w views -w lib \
+    bin/burlesque -g $1 -c $2 -t $3

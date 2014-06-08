@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# TODO: compile as well
 ./node_modules/.bin/nodemon \
     -e js,styl,jade \
     -w web -w views -w lib \

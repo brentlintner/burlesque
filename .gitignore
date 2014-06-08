@@ -3,4 +3,6 @@ node_modules
 bower_modules
 .vim.custom
 web/.css
+lib/**/*.js
+web/**/*.js
 todo.md

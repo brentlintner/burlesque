@@ -21,7 +21,7 @@
     "burlesque": "bin/burlesque"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install && ./bin/compile"
+    "postinstall": "bower install && ./bin/compile"
   },
   "dependencies": {
     "optimist": "0.6.1",

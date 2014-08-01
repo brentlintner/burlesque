@@ -1,6 +1,8 @@
 burlesque
 =========
 
+[![NPM version](https://badge.fury.io/js/burlesque.svg)](http://badge.fury.io/js/burlesque)
+
 [![Dependency Status](https://david-dm.org/brentlintner/burlesque.svg)](https://david-dm.org/brentlintner/burlesque)
 
 Turn your git commit messages into visual presentations that wow your viewers!

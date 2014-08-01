@@ -1,6 +1,8 @@
 burlesque
 =========
 
+[![Dependency Status](https://david-dm.org/brentlintner/burlesque.svg)](https://david-dm.org/brentlintner/burlesque)
+
 Turn your git commit messages into visual presentations that wow your viewers!
 
 Disclaimer: The wow factor may or may not be experienced.

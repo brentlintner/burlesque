@@ -17,6 +17,10 @@ Disclaimer: The wow factor may or may not be experienced.
 
     burlesque help
 
+## Versioning
+
+This project ascribes to [semantic versioning](http://semver.org).
+
 ## Hacking
 
     cd burlesque

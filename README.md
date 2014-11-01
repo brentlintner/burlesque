@@ -17,6 +17,13 @@ Disclaimer: The wow factor may or may not be experienced.
 
     burlesque help
 
+## Installing As Root
+
+If you have trouble with the bower install, I recommend to, instead:
+
+    echo "prefix = ${HOME}/npm-global" >> ~/.npmrc
+    echo "export PATH=$HOME/npm-global/bin:$PATH" >> ~/.bashrc
+
 ## Versioning
 
 This project ascribes to [semantic versioning](http://semver.org).

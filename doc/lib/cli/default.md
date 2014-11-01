@@ -14,7 +14,7 @@ The CLI defaults to the `server.start` method.
 
 ## Example
 
-Create a slideshow from `my_branch` to `master`, using the
+Create a slideshow starting from `master` to `my_branch`, using the
 `solarized` reveal.js theme, on `http://localhost:5050`.
 
     burlesque -g my_repo -c master..my_branch -t solarized -p 5050
